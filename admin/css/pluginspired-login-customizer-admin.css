@@ -1,0 +1,102 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ #pluginspired-login-customizer-wrap .main-right .banners a {
+   max-width: 49%;
+   display: inline-block;
+   float: left;
+ }
+ #pluginspired-login-customizer-wrap .main-right .banners a:first-child {
+   margin-right: 2%;
+ }
+ #pluginspired-login-customizer-wrap .main-right img {
+   max-width:100%;
+   margin-bottom:20px;
+ }
+ #pluginspired-login-customizer-wrap .tab-container {
+   margin: 10px auto;
+ }
+ #pluginspired-login-customizer-wrap ul.tabs {
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+ }
+ #pluginspired-login-customizer-wrap ul.tabs li {
+   border-width: 1px 1px 0 1px;
+   border-color: transparent;
+   border-style: solid;
+   background: none;
+   color: #222;
+   display: inline-block;
+   margin: 0;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+ }
+ #pluginspired-login-customizer-wrap ul.tabs li a {
+   padding: 10px 15px;
+   display: inline-block;
+   text-decoration: none;
+ }
+ #pluginspired-login-customizer-wrap ul.tabs li.current,
+ #pluginspired-login-customizer-wrap ul.tabs li:hover {
+   background: #ddd;
+   border-width: 1px 1px 0 1px;
+   border-color: #ccc;
+   border-style: solid;
+   color: #222;
+ }
+ #pluginspired-login-customizer-wrap .tab-content {
+   display: none;
+   border: 1px solid #ddd;
+   background: #fff;
+   padding: 15px;
+ }
+ #pluginspired-login-customizer-wrap .tab-content.current {
+   display: inherit;
+ }
+ #pluginspired-login-customizer-wrap .plugin-data {
+   margin: 0px;
+ }
+ #pluginspired-login-customizer-wrap .plugin-data-inner {
+   text-align: right;
+   margin: 0;
+ }
+ #pluginspired-login-customizer-wrap .plugin-data p {
+   margin-top: 20px;
+ }
+ #pluginspired-login-customizer-wrap .plugin-data p img {
+   margin-top: -20px;
+ }
+ #pluginspired-login-customizer-wrap .avatar {
+   float:right;
+   margin-left:15px;
+   margin-bottom:10px;
+ }
+ #pluginspired-login-customizer-wrap .notice a {
+   text-decoration: none;
+ }
+ #pluginspired-login-customizer-wrap .notice.is-dismissible {
+   clear: both;
+ }
+
+ @media screen and (min-width: 783px) {
+
+   #pluginspired-login-customizer-wrap .main-left {
+     width:69%;
+     float: left;
+   }
+   #pluginspired-login-customizer-wrap .main-right {
+     padding-top:48px;
+     width:29%;
+     float: right;
+   }
+   #pluginspired-login-customizer-wrap .main-right .banners a {
+     max-width: 100%;
+     float: none;
+   }
+   #pluginspired-login-customizer-wrap .main-right .banners a:first-child {
+     margin-right: 0;
+   }
+
+ }
